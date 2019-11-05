@@ -12,8 +12,9 @@ Integrating Contact Forms on a WordPress site with the help of the Advanced Cust
 - The plugin automatically pulls all custom fields associated with a custom post type and lists them in the form
 - Compatible with the taxonomy field type that allows better data organization in the backend
 - Makes use of the ACF honeypot functionality to prevent spam bots from flooding your inbox
-- Shortcode allows you to use forms anywhere in your WordPress site; no need to heavily customize page templates, etc.
+- Shortcode allows you to use forms anywhere in your WordPress site; no need to (heavily) customize page templates, etc.
 
 # Issues / Feature requests:
 - After filtering columns in the backend (e.g. clicking on an e-mail to see all e-mails that this particular customer has sent), the sorting algorithm doesn't work (it does if you haven't applied a filter first)
 - The acf_form_head() function still needs to be present in the template; it would be nice to have some logic that detects that the shortcode is present on a page and it then integrates the function automatically
+- Define a logic to add new columns in the admin backend automatically (at the moment, certain fields can't be renamed as this would break the logic for the admin column extension part of the plugin)
