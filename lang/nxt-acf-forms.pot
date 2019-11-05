@@ -1,0 +1,350 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Contact Forms based on Advanced Custom Fields (ACF) by "
+"nexTab\n"
+"POT-Creation-Date: 2019-11-05 11:17+0100\n"
+"PO-Revision-Date: 2019-11-05 11:17+0100\n"
+"Last-Translator: Oliver Gehrmann <og@nextab.de>\n"
+"Language-Team: Oliver Gehrmann <og@nextab.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: nxt-acf-forms.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: nxt-acf-forms.php:28 nxt-acf-forms.php:52
+msgid "Messages"
+msgstr ""
+
+#: nxt-acf-forms.php:29
+msgid "Message"
+msgstr ""
+
+#: nxt-acf-forms.php:30
+msgid "All Messages"
+msgstr ""
+
+#: nxt-acf-forms.php:31
+msgid "Message Archives"
+msgstr ""
+
+#: nxt-acf-forms.php:32
+msgid "Message Attributes"
+msgstr ""
+
+#: nxt-acf-forms.php:33
+msgid "Insert into Message"
+msgstr ""
+
+#: nxt-acf-forms.php:34
+msgid "Uploaded to this Message"
+msgstr ""
+
+#: nxt-acf-forms.php:35
+msgctxt "message"
+msgid "Featured Image"
+msgstr ""
+
+#: nxt-acf-forms.php:36
+msgctxt "message"
+msgid "Set featured image"
+msgstr ""
+
+#: nxt-acf-forms.php:37
+msgctxt "message"
+msgid "Remove featured image"
+msgstr ""
+
+#: nxt-acf-forms.php:38
+msgctxt "message"
+msgid "Use as featured image"
+msgstr ""
+
+#: nxt-acf-forms.php:39
+msgid "Filter Messages list"
+msgstr ""
+
+#: nxt-acf-forms.php:40
+msgid "Messages list navigation"
+msgstr ""
+
+#: nxt-acf-forms.php:41
+msgid "Messages list"
+msgstr ""
+
+#: nxt-acf-forms.php:42
+msgid "New Message"
+msgstr ""
+
+#: nxt-acf-forms.php:43
+msgid "Add New"
+msgstr ""
+
+#: nxt-acf-forms.php:44
+msgid "Add New Message"
+msgstr ""
+
+#: nxt-acf-forms.php:45
+msgid "Edit Message"
+msgstr ""
+
+#: nxt-acf-forms.php:46
+msgid "View Message"
+msgstr ""
+
+#: nxt-acf-forms.php:47
+msgid "View Messages"
+msgstr ""
+
+#: nxt-acf-forms.php:48
+msgid "Search Messages"
+msgstr ""
+
+#: nxt-acf-forms.php:49
+msgid "No Messages found"
+msgstr ""
+
+#: nxt-acf-forms.php:50
+msgid "No Messages found in trash"
+msgstr ""
+
+#: nxt-acf-forms.php:51
+msgid "Parent Message:"
+msgstr ""
+
+#: nxt-acf-forms.php:80
+#, php-format
+msgid "Message updated. <a target=\"_blank\" href=\"%s\">View Message</a>"
+msgstr ""
+
+#: nxt-acf-forms.php:81
+msgid "Custom field updated."
+msgstr ""
+
+#: nxt-acf-forms.php:82
+msgid "Custom field deleted."
+msgstr ""
+
+#: nxt-acf-forms.php:83
+msgid "Message updated."
+msgstr ""
+
+#: nxt-acf-forms.php:85
+#, php-format
+msgid "Message restored to revision from %s"
+msgstr ""
+
+#: nxt-acf-forms.php:87
+#, php-format
+msgid "Message published. <a href=\"%s\">View message</a>"
+msgstr ""
+
+#: nxt-acf-forms.php:88
+msgid "Message saved."
+msgstr ""
+
+#: nxt-acf-forms.php:90
+#, php-format
+msgid "Message submitted. <a target=\"_blank\" href=\"%s\">Preview message</a>"
+msgstr ""
+
+#: nxt-acf-forms.php:92
+#, php-format
+msgid ""
+"Message scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview message</a>"
+msgstr ""
+
+#: nxt-acf-forms.php:93
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: nxt-acf-forms.php:95
+#, php-format
+msgid ""
+"Message draft updated. <a target=\"_blank\" href=\"%s\">Preview mecipe</a>"
+msgstr ""
+
+#: nxt-acf-forms.php:119 nxt-acf-forms.php:136
+msgid "Message categories"
+msgstr ""
+
+#: nxt-acf-forms.php:120
+msgctxt "taxonomy general name"
+msgid "Message category"
+msgstr ""
+
+#: nxt-acf-forms.php:121
+msgid "Search Message categories"
+msgstr ""
+
+#: nxt-acf-forms.php:122
+msgid "Popular Message categories"
+msgstr ""
+
+#: nxt-acf-forms.php:123
+msgid "All Message categories"
+msgstr ""
+
+#: nxt-acf-forms.php:124
+msgid "Parent Message category"
+msgstr ""
+
+#: nxt-acf-forms.php:125
+msgid "Parent Message category:"
+msgstr ""
+
+#: nxt-acf-forms.php:126
+msgid "Edit Message category"
+msgstr ""
+
+#: nxt-acf-forms.php:127
+msgid "Update Message category"
+msgstr ""
+
+#: nxt-acf-forms.php:128
+msgid "View Message category"
+msgstr ""
+
+#: nxt-acf-forms.php:129
+msgid "Add New Message category"
+msgstr ""
+
+#: nxt-acf-forms.php:130
+msgid "New Message category"
+msgstr ""
+
+#: nxt-acf-forms.php:131
+msgid "Separate Message categories with commas"
+msgstr ""
+
+#: nxt-acf-forms.php:132
+msgid "Add or remove Message categories"
+msgstr ""
+
+#: nxt-acf-forms.php:133
+msgid "Choose from the most used Message categories"
+msgstr ""
+
+#: nxt-acf-forms.php:134
+msgid "No Message categories found."
+msgstr ""
+
+#: nxt-acf-forms.php:135
+msgid "No Message categories"
+msgstr ""
+
+#: nxt-acf-forms.php:137
+msgid "Message categories list navigation"
+msgstr ""
+
+#: nxt-acf-forms.php:138
+msgid "Message categories list"
+msgstr ""
+
+#: nxt-acf-forms.php:139
+msgctxt "message_category"
+msgid "Most Used"
+msgstr ""
+
+#: nxt-acf-forms.php:140
+msgid "&larr; Back to Message categories"
+msgstr ""
+
+#: nxt-acf-forms.php:157
+msgid "Message category added."
+msgstr ""
+
+#: nxt-acf-forms.php:158
+msgid "Message category deleted."
+msgstr ""
+
+#: nxt-acf-forms.php:159
+msgid "Message category updated."
+msgstr ""
+
+#: nxt-acf-forms.php:160
+msgid "Message category not added."
+msgstr ""
+
+#: nxt-acf-forms.php:161
+msgid "Message category not updated."
+msgstr ""
+
+#: nxt-acf-forms.php:162
+msgid "Message categories deleted."
+msgstr ""
+
+#: nxt-acf-forms.php:173
+msgid "Title"
+msgstr ""
+
+#: nxt-acf-forms.php:174
+msgid "Category"
+msgstr ""
+
+#: nxt-acf-forms.php:175
+msgid "E-Mail"
+msgstr ""
+
+#: nxt-acf-forms.php:176
+msgid "Telephone"
+msgstr ""
+
+#: nxt-acf-forms.php:177
+msgid "Date"
+msgstr ""
+
+#: nxt-acf-forms.php:311
+msgid "Send Message"
+msgstr ""
+
+#: nxt-acf-forms.php:333
+msgid ""
+"<p>Hi,</p><p>this message has just been submitted on your website:</p><p>"
+msgstr ""
+
+#: nxt-acf-forms.php:347
+msgid "You can also find the message here: "
+msgstr ""
+
+#: nxt-acf-forms.php:347
+msgid "That is all. Make sure to respond soon!</p>"
+msgstr ""
+
+#: nxt-acf-forms.php:348
+msgid "New Message - "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Contact Forms based on Advanced Custom Fields (ACF) by nexTab"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://nextab.de/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin helps you to receive messages by setting up a custom post type. "
+"It also sends a notification via e-mail, so it effectively works like a "
+"contact form plugin. It requires Advanced Custom Fields to work."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "nexTab - Oliver Gehrmann"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://nexTab.de/"
+msgstr ""

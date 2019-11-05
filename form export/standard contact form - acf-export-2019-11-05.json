@@ -1,0 +1,141 @@
+[
+    {
+        "key": "group_5dbf4cf9c8e5e",
+        "title": "Standard Contact Form",
+        "fields": [
+            {
+                "key": "field_5dbf4d05a3c13",
+                "label": "First Name",
+                "name": "cf_first_name",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "cf_first_name",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "First Name",
+                "prepend": "",
+                "append": "",
+                "maxlength": 100
+            },
+            {
+                "key": "field_5dbf4d39a3c14",
+                "label": "Last Name",
+                "name": "cf_last_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "cf_last_name",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Last Name",
+                "prepend": "",
+                "append": "",
+                "maxlength": 100
+            },
+            {
+                "key": "field_5dbf568e69c9f",
+                "label": "E-Mail",
+                "name": "cf_email",
+                "type": "email",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "cf_email",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_5dc07a052feca",
+                "label": "Telephone",
+                "name": "cf_tel",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Telephone number",
+                "prepend": "",
+                "append": "",
+                "maxlength": 100
+            },
+            {
+                "key": "field_5dbf4d58a3c15",
+                "label": "What are you interested in?",
+                "name": "cf_interest",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "cf_interest",
+                    "id": ""
+                },
+                "taxonomy": "message_category",
+                "field_type": "select",
+                "allow_null": 0,
+                "add_term": 0,
+                "save_terms": 1,
+                "load_terms": 0,
+                "return_format": "object",
+                "multiple": 0
+            },
+            {
+                "key": "field_5dbf4e1ca3c16",
+                "label": "Comments",
+                "name": "cf_comments",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "cf_comments",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Tell us more...",
+                "maxlength": 500,
+                "rows": "",
+                "new_lines": "wpautop"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "message"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
