@@ -1,0 +1,53 @@
+.jump_around_jump_up_jump_up_and_get_down {
+	padding: 5px;
+	width: 90%;
+}
+.jump_around_jump_up_jump_up_and_get_down .form-output input {
+	padding: 10px;
+	width: 100%;
+}
+.checkbox-container {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 30px;
+}
+.checkbox-container > div {
+	padding-bottom: 5px;
+	width: 30%;
+}
+.shortcode_pastebin_container {
+	background-color: #fff;
+	font-size: 18px;
+	margin-bottom: 25px;
+	padding: 20px;
+	word-break: break-all;
+}
+h4.category_header { margin-top: 40px; }
+.tax_select, .location_select {
+	max-width: 100% !important;
+	padding: 10px !important;
+	width: 100%;
+}
+.participants-container {
+	background: #fff;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 30px auto;
+	order: 100;
+	padding: 10px 20px 25px !important;
+	width: 100% !important;
+}
+.participants-container > h4 { width: 100%; }
+.participants-container .single-participant-field { 
+	margin-bottom: 5px;
+	width: 47%;
+}
+.request_date_time_container label { display: block; }
+.request_date_time_container input[class*="date"], .request_url input {
+	border: none;
+	box-shadow: none;
+	font-size: 16px;
+	margin: 10px 0 20px;
+	padding: 10px;
+}
