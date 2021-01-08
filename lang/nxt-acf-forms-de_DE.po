@@ -1,15 +1,17 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: Contact Forms based on Advanced Custom Fields (ACF) by "
 "nexTab\n"
-"POT-Creation-Date: 2019-11-05 11:17+0100\n"
-"PO-Revision-Date: 2019-11-05 11:34+0100\n"
+"POT-Creation-Date: 2020-11-27 12:42+0100\n"
+"PO-Revision-Date: 2020-11-27 12:42+0100\n"
+"Last-Translator: Oliver Gehrmann <og@nextab.de>\n"
 "Language-Team: Oliver Gehrmann <og@nextab.de>\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: nxt-acf-forms.php\n"
@@ -17,328 +19,308 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Last-Translator: Oliver Gehrmann <og@nextab.de>\n"
-"Language: de_DE\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: nxt-acf-forms.php:28 nxt-acf-forms.php:52
-msgid "Messages"
-msgstr "Nachrichten"
+#: nxt-acf-forms.php:28
+msgid "Add New Message"
+msgstr "Neue Schulungsanmeldung hinzufügen"
 
 #: nxt-acf-forms.php:29
-msgid "Message"
-msgstr "Nachricht"
+msgid "Add New"
+msgstr "Neu"
 
 #: nxt-acf-forms.php:30
 msgid "All Messages"
-msgstr "Alle Nachrichten"
+msgstr "Alle Anmeldungen"
 
 #: nxt-acf-forms.php:31
 msgid "Message Archives"
-msgstr "Nachrichten-Archiv"
+msgstr "Anmeldungen-Archiv"
 
 #: nxt-acf-forms.php:32
 msgid "Message Attributes"
-msgstr "Nachrichten-Eigenschaften"
+msgstr "Status der Anmeldung"
 
 #: nxt-acf-forms.php:33
-msgid "Insert into Message"
-msgstr "In Nachricht einfügen"
+msgid "Edit Message"
+msgstr "Anmeldung bearbeiten"
 
 #: nxt-acf-forms.php:34
-msgid "Uploaded to this Message"
-msgstr "An dieser Nachricht angehängt"
-
-#: nxt-acf-forms.php:35
 msgctxt "message"
 msgid "Featured Image"
 msgstr "Hervorgehobenes Bild"
 
+#: nxt-acf-forms.php:35
+msgid "Filter Messages list"
+msgstr "Liste der Anmeldungen filtern"
+
 #: nxt-acf-forms.php:36
-msgctxt "message"
-msgid "Set featured image"
-msgstr "Hervorgehobenes Bild setzen"
+msgid "Insert into Message"
+msgstr "In Anmeldung einfügen"
 
 #: nxt-acf-forms.php:37
+msgid "Messages list navigation"
+msgstr "Navigation der Anmeldungen-Liste"
+
+#: nxt-acf-forms.php:38
+msgid "Messages list"
+msgstr "Anmeldungsliste"
+
+#: nxt-acf-forms.php:39 nxt-acf-forms.php:40
+msgid "Messages"
+msgstr "Anmeldungen"
+
+#: nxt-acf-forms.php:41
+msgid "New Message"
+msgstr "Neue Anmeldung erstellen"
+
+#: nxt-acf-forms.php:42
+msgid "No Messages found in trash"
+msgstr "Keine Anmeldungen im Papierkorb gefunden"
+
+#: nxt-acf-forms.php:43
+msgid "No Messages found"
+msgstr "Keine Anmeldungen gefunden"
+
+#: nxt-acf-forms.php:44
+msgid "Parent Message:"
+msgstr "Übergeordnete Anmeldung:"
+
+#: nxt-acf-forms.php:45
 msgctxt "message"
 msgid "Remove featured image"
 msgstr "Hervorgehobenes Bild entfernen"
 
-#: nxt-acf-forms.php:38
-msgctxt "message"
-msgid "Use as featured image"
-msgstr "Als hervorgehobenes Bild benutzen"
-
-#: nxt-acf-forms.php:39
-msgid "Filter Messages list"
-msgstr "Liste der Nachrichten filtern"
-
-#: nxt-acf-forms.php:40
-msgid "Messages list navigation"
-msgstr "Navigation der Nachrichten-Liste"
-
-#: nxt-acf-forms.php:41
-msgid "Messages list"
-msgstr "Nachrichtenliste"
-
-#: nxt-acf-forms.php:42
-msgid "New Message"
-msgstr "Nachricht verfassen"
-
-#: nxt-acf-forms.php:43
-msgid "Add New"
-msgstr "Neu"
-
-#: nxt-acf-forms.php:44
-msgid "Add New Message"
-msgstr "Neue Nachricht hinzufügen"
-
-#: nxt-acf-forms.php:45
-msgid "Edit Message"
-msgstr "Nachricht bearbeiten"
-
 #: nxt-acf-forms.php:46
-msgid "View Message"
-msgstr "Nachricht anzeigen"
+msgid "Search Messages"
+msgstr "Schulungsanmeldungen durchsuchen"
 
 #: nxt-acf-forms.php:47
-msgid "View Messages"
-msgstr "Nachrichten ansehen"
+msgctxt "message"
+msgid "Set featured image"
+msgstr "Hervorgehobenes Bild auswählen"
 
 #: nxt-acf-forms.php:48
-msgid "Search Messages"
-msgstr "Nachrichten durchsuchen"
+msgid "Message"
+msgstr "Schulungsanmeldung"
 
 #: nxt-acf-forms.php:49
-msgid "No Messages found"
-msgstr "Keine Nachrichten gefunden"
+msgid "Uploaded to this Message"
+msgstr "An diese Schulungsanmeldung angehängt"
 
 #: nxt-acf-forms.php:50
-msgid "No Messages found in trash"
-msgstr "Keine Nachrichten im Papierkorb gefunden"
+msgctxt "message"
+msgid "Use as featured image"
+msgstr "Als hervorgehobenes Bild verwenden"
 
 #: nxt-acf-forms.php:51
-msgid "Parent Message:"
-msgstr "Übergeordnete Nachricht:"
+msgid "View Message"
+msgstr "Anmeldung anzeigen"
 
-#: nxt-acf-forms.php:80
+#: nxt-acf-forms.php:52
+msgid "View Messages"
+msgstr "Anmeldungen ansehen"
+
+#: nxt-acf-forms.php:71 nxt-acf-forms.php:72
+msgid "Message Category"
+msgstr "Schulungs-Kategorie"
+
+#: nxt-acf-forms.php:73
+msgid "Add new Message Category"
+msgstr "Neue Kategorie hinzufügen"
+
+#: nxt-acf-forms.php:74
+msgid "Edit Category"
+msgstr "Kategorie bearbeiten"
+
+#: nxt-acf-forms.php:75
+msgid "Parent Category"
+msgstr "Übergeordnete Kategorie"
+
+#: nxt-acf-forms.php:90
+msgid "Course Locations"
+msgstr "Schulungsorte"
+
+#: nxt-acf-forms.php:91
+msgid "Course Location"
+msgstr "Schulungsort"
+
+#: nxt-acf-forms.php:92
+msgid "Add new Location"
+msgstr "Neuen Schulungsort hinzufügen"
+
+#: nxt-acf-forms.php:93
+msgid "Edit Location"
+msgstr "Ort bearbeiten"
+
+#. translators: %s: post permalink
+#: nxt-acf-forms.php:119
 #, php-format
 msgid "Message updated. <a target=\"_blank\" href=\"%s\">View Message</a>"
 msgstr ""
 "Nachricht aktualisiert. <a target=\"_blank\" href=\"%s\">Nachricht anzeigen</"
 "a>"
 
-#: nxt-acf-forms.php:81
+#: nxt-acf-forms.php:120
 msgid "Custom field updated."
 msgstr "Benutzerdefiniertes Feld aktualisiert."
 
-#: nxt-acf-forms.php:82
+#: nxt-acf-forms.php:121
 msgid "Custom field deleted."
 msgstr "Benutzerdefiniertes Feld gelöscht."
 
-#: nxt-acf-forms.php:83
+#: nxt-acf-forms.php:122
 msgid "Message updated."
-msgstr "Nachricht aktualisiert."
+msgstr "Anmeldung aktualisiert."
 
-#: nxt-acf-forms.php:85
+#. translators: %s: date and time of the revision
+#: nxt-acf-forms.php:124
 #, php-format
 msgid "Message restored to revision from %s"
-msgstr "Nachricht durch die Revision vom %s wiederhergestellt"
+msgstr "Schulungsanmeldung durch die Revision vom %s wiederhergestellt"
 
-#: nxt-acf-forms.php:87
+#. translators: %s: post permalink
+#: nxt-acf-forms.php:126
 #, php-format
 msgid "Message published. <a href=\"%s\">View message</a>"
-msgstr "Nachricht veröffentlicht. <a href=\"%s\">Nachricht anzeigen</a>"
+msgstr "Anmeldung gespeichert. <a href=\"%s\">Anmeldung anzeigen</a>"
 
-#: nxt-acf-forms.php:88
+#: nxt-acf-forms.php:127
 msgid "Message saved."
-msgstr "Nachricht gespeichert."
+msgstr "Anmeldung gespeichert."
 
-#: nxt-acf-forms.php:90
+#. translators: %s: post permalink
+#: nxt-acf-forms.php:129
 #, php-format
 msgid "Message submitted. <a target=\"_blank\" href=\"%s\">Preview message</a>"
 msgstr ""
-"Nachricht gesendet. <a target=\"_blank\" href=\"%s\">Vorschau der Nachricht</"
-"a>"
+"Schulungsanmeldung wurde übermittelt. <a target=\"_blank\" href=\"%s"
+"\">Vorschau der Anmeldung</a>"
 
-#: nxt-acf-forms.php:92
+#. translators: 1: Publish box date format, see https://secure.php.net/date 2: Post permalink
+#: nxt-acf-forms.php:131
 #, php-format
 msgid ""
 "Message scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
 "\"%2$s\">Preview message</a>"
 msgstr ""
-"Nachricht geplant für: <strong>%1$s</strong>. <a target=\"_blank\" href="
-"\"%2$s\">Vorschau der Nachricht</a>"
+"Anmeldung geplant für: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Vorschau der Anmeldung</a>"
 
-#: nxt-acf-forms.php:93
+#: nxt-acf-forms.php:132
 msgid "M j, Y @ G:i"
 msgstr "d. F Y @ H:i"
 
-#: nxt-acf-forms.php:95
+#. translators: %s: post permalink
+#: nxt-acf-forms.php:134
 #, php-format
 msgid ""
-"Message draft updated. <a target=\"_blank\" href=\"%s\">Preview mecipe</a>"
+"Message draft updated. <a target=\"_blank\" href=\"%s\">Preview message</a>"
 msgstr ""
-"Nachrichtenentwurf aktualisiert. <a target=\"_blank\" href=\"%s\">Vorschau "
-"mecipe</a>"
+"Entwurf der Schulungsanmeldung aktualisiert. <a target=\"_blank\" href=\"%s"
+"\">Vorschau der Anmeldung</a>"
 
-#: nxt-acf-forms.php:119 nxt-acf-forms.php:136
-msgid "Message categories"
-msgstr "Nachrichten-Kategorien"
-
-#: nxt-acf-forms.php:120
-msgctxt "taxonomy general name"
-msgid "Message category"
-msgstr "Nachrichten-Kategorie"
-
-#: nxt-acf-forms.php:121
-msgid "Search Message categories"
-msgstr "Nachrichten-Kategorien durchsuchen"
-
-#: nxt-acf-forms.php:122
-msgid "Popular Message categories"
-msgstr "Beliebte Nachrichten-Kategorien"
-
-#: nxt-acf-forms.php:123
-msgid "All Message categories"
-msgstr "Alle Nachrichten-Kategorien"
-
-#: nxt-acf-forms.php:124
-msgid "Parent Message category"
-msgstr "Übergeordnete Kategorie"
-
-#: nxt-acf-forms.php:125
-msgid "Parent Message category:"
-msgstr "Übergeordnete Kategorie:"
-
-#: nxt-acf-forms.php:126
-msgid "Edit Message category"
-msgstr "Nachrichten-Kategorie bearbeiten"
-
-#: nxt-acf-forms.php:127
-msgid "Update Message category"
-msgstr "Nachrichten-Kategorie updaten"
-
-#: nxt-acf-forms.php:128
-msgid "View Message category"
-msgstr "Nachrichten-Kategorie anzeigen"
-
-#: nxt-acf-forms.php:129
-msgid "Add New Message category"
-msgstr "Neue Kategorie hinzufügen"
-
-#: nxt-acf-forms.php:130
-msgid "New Message category"
-msgstr "Neue Nachrichten-Kategorie"
-
-#: nxt-acf-forms.php:131
-msgid "Separate Message categories with commas"
-msgstr "Mehrere Nachrichten-Kategorien mit Kommas trennen"
-
-#: nxt-acf-forms.php:132
-msgid "Add or remove Message categories"
-msgstr "Nachrichten-Kategorien hinzufügen oder entfernen"
-
-#: nxt-acf-forms.php:133
-msgid "Choose from the most used Message categories"
-msgstr "Wähle aus den meist verwendeten Nachrichten-Kategorien"
-
-#: nxt-acf-forms.php:134
-msgid "No Message categories found."
-msgstr "Keine Nachrichten-Kategorie gefunden."
-
-#: nxt-acf-forms.php:135
-msgid "No Message categories"
-msgstr "Keine Nachrichten-Kategorien"
-
-#: nxt-acf-forms.php:137
-msgid "Message categories list navigation"
-msgstr "Navigation der Nachrichten-Kategorien"
-
-#: nxt-acf-forms.php:138
-msgid "Message categories list"
-msgstr "Liste der Nachrichten-Kategorien"
-
-#: nxt-acf-forms.php:139
-msgctxt "message_category"
-msgid "Most Used"
-msgstr "Meistverwendet"
-
-#: nxt-acf-forms.php:140
-msgid "&larr; Back to Message categories"
-msgstr "&larr; Zurück zu den Nachrichten-Kategorien"
-
-#: nxt-acf-forms.php:157
-msgid "Message category added."
-msgstr "Nachrichten-Kategorie hinzugefügt."
-
-#: nxt-acf-forms.php:158
-msgid "Message category deleted."
-msgstr "Nachrichten-Kategorie gelöscht."
-
-#: nxt-acf-forms.php:159
-msgid "Message category updated."
-msgstr "Nachrichten-Kategorie aktualisiert."
-
-#: nxt-acf-forms.php:160
-msgid "Message category not added."
-msgstr "Kategorie wurde nicht hinzugefügt."
-
-#: nxt-acf-forms.php:161
-msgid "Message category not updated."
-msgstr "Nachrichtenkategorie wurde nicht aktualisiert."
-
-#: nxt-acf-forms.php:162
-msgid "Message categories deleted."
-msgstr "Nachrichten-Kategorie gelöscht."
-
-#: nxt-acf-forms.php:173
+#: nxt-acf-forms.php:146
 msgid "Title"
 msgstr "Titel"
 
-#: nxt-acf-forms.php:174
+#: nxt-acf-forms.php:147
 msgid "Category"
 msgstr "Kategorie"
 
-#: nxt-acf-forms.php:175
+#: nxt-acf-forms.php:148
 msgid "E-Mail"
 msgstr "E-Mail"
 
-#: nxt-acf-forms.php:176
+#: nxt-acf-forms.php:149
 msgid "Telephone"
 msgstr "Telefon"
 
-#: nxt-acf-forms.php:177
+#: nxt-acf-forms.php:150
+msgid "Message Status"
+msgstr "Eigenschaften der Anmeldung"
+
+#: nxt-acf-forms.php:151
 msgid "Date"
 msgstr "Datum"
 
-#: nxt-acf-forms.php:311
+#: nxt-acf-forms.php:255
 msgid "Send Message"
 msgstr "Nachricht senden"
 
-#: nxt-acf-forms.php:333
+#: nxt-acf-forms.php:269
+msgid "Thank you for getting in touch!"
+msgstr "Vielen Dank für Ihr Interesse!"
+
+#: nxt-acf-forms.php:270
+msgid "/thank-you/"
+msgstr "/danke/"
+
+#: nxt-acf-forms.php:369
 msgid ""
 "<p>Hi,</p><p>this message has just been submitted on your website:</p><p>"
 msgstr ""
-"<p>Hallo,</p><p>diese Nachricht wurde eben über die Webseite verschickt:</"
-"p><p>"
+"<p>Hallo,</p><p>diese Schulungsanmeldung wurde eben über die Webseite "
+"verschickt:</p><p>"
 
-#: nxt-acf-forms.php:347
+#: nxt-acf-forms.php:393
 msgid "You can also find the message here: "
-msgstr "Du kannst die Nachricht auch hier finden:"
+msgstr "Sie können die Anmeldung ebenfalls hier einsehen:"
 
-#: nxt-acf-forms.php:347
+#: nxt-acf-forms.php:393
 msgid "That is all. Make sure to respond soon!</p>"
-msgstr "Das war's. Melde dich schnell zurück!</p>"
+msgstr "Das war alles. Bitte melden Sie sich schnell zurück!</p>"
 
-#: nxt-acf-forms.php:348
+#: nxt-acf-forms.php:394
 msgid "New Message - "
-msgstr "Neue Nachicht - "
+msgstr "Neue Schulungsanmeldung - "
+
+#: nxt-acf-forms.php:454 nxt-acf-forms.php:455
+msgid "Shortcode Forms"
+msgstr "Formulare"
+
+#: nxt-acf-forms.php:470
+msgid "Form Builder"
+msgstr "Formular-Baukasten"
+
+#: nxt-acf-forms.php:488
+msgid "DO NOT SHOW these participant fields"
+msgstr "Teilnehmer-Felder von der Ausgabe AUSSCHLIESSEN"
+
+#: nxt-acf-forms.php:507
+msgid "Please select the category"
+msgstr "Bitte Schulungs-Kategorie auswählen"
+
+#: nxt-acf-forms.php:516
+msgid "Please specify the dates"
+msgstr "Bitte geben Sie Start- und Enddatum an"
+
+#: nxt-acf-forms.php:517
+msgid "Please specify the start date"
+msgstr "Bitte geben Sie das Startdatum an"
+
+#: nxt-acf-forms.php:519
+msgid "Please specify the end date"
+msgstr "Bitte geben Sie das Enddatum an"
+
+#: nxt-acf-forms.php:526
+msgid "Please specify the location"
+msgstr "Bitte geben Sie den Schulungsort an"
+
+#: nxt-acf-forms.php:540
+msgid "Copy this form code"
+msgstr "Shortcode für das Formular:"
+
+#: nxt-acf-forms.php:547 nxt-acf-forms.php:552
+msgid "Export message"
+msgstr "Anmeldung exportieren"
 
 #. Plugin Name of the plugin/theme
 msgid "Contact Forms based on Advanced Custom Fields (ACF) by nexTab"
-msgstr "Kontaktformulare auf Basis von Advanced Custom Fields (ACF) von nexTab"
+msgstr ""
+"Schulungsanmeldungs-System auf Basis von Advanced Custom Fields (ACF) von "
+"nexTab"
 
 #. Plugin URI of the plugin/theme
 msgid "https://nextab.de/"
@@ -350,10 +332,12 @@ msgid ""
 "It also sends a notification via e-mail, so it effectively works like a "
 "contact form plugin. It requires Advanced Custom Fields to work."
 msgstr ""
-"Dieses Plugin ermöglicht den Erhalt von Nachrichten, die über einen Custom "
-"Post Type gespeichert werden. Es werden zusätzlichen Benachrichtigungen per "
-"E-Mail verschickt, so dass es effektiv wie ein Kontaktformular funktioniert. "
-"Erfordert Advanced Custom Fields."
+"Dieses Plugin erzeugt den eigenen Post Type \"Schulungsanmeldungen\" und "
+"ermöglicht es, mit Hilfe von Frontend-Formularen neue Anmeldungen zu "
+"erzeugen. Es werden zusätzlichen Benachrichtigungen per E-Mail verschickt, "
+"so dass es effektiv wie ein Kontaktformular funktioniert. Darüber hinaus "
+"werden die Einträge in einer .csv gespeichert. Erfordert Advanced Custom "
+"Fields."
 
 #. Author of the plugin/theme
 msgid "nexTab - Oliver Gehrmann"
@@ -362,3 +346,73 @@ msgstr "nexTab - Oliver Gehrmann"
 #. Author URI of the plugin/theme
 msgid "http://nexTab.de/"
 msgstr "http://nexTab.de/"
+
+#~ msgid "Message categories"
+#~ msgstr "Nachrichten-Kategorien"
+
+#~ msgid "Search Message categories"
+#~ msgstr "Nachrichten-Kategorien durchsuchen"
+
+#~ msgid "Popular Message categories"
+#~ msgstr "Beliebte Nachrichten-Kategorien"
+
+#~ msgid "All Message categories"
+#~ msgstr "Alle Nachrichten-Kategorien"
+
+#~ msgid "Edit Message category"
+#~ msgstr "Nachrichten-Kategorie bearbeiten"
+
+#~ msgid "Update Message category"
+#~ msgstr "Nachrichten-Kategorie updaten"
+
+#~ msgid "View Message category"
+#~ msgstr "Nachrichten-Kategorie anzeigen"
+
+#~ msgid "New Message category"
+#~ msgstr "Neue Nachrichten-Kategorie"
+
+#~ msgid "Separate Message categories with commas"
+#~ msgstr "Mehrere Nachrichten-Kategorien mit Kommas trennen"
+
+#~ msgid "Add or remove Message categories"
+#~ msgstr "Nachrichten-Kategorien hinzufügen oder entfernen"
+
+#~ msgid "Choose from the most used Message categories"
+#~ msgstr "Wähle aus den meist verwendeten Nachrichten-Kategorien"
+
+#~ msgid "No Message categories found."
+#~ msgstr "Keine Nachrichten-Kategorie gefunden."
+
+#~ msgid "No Message categories"
+#~ msgstr "Keine Nachrichten-Kategorien"
+
+#~ msgid "Message categories list navigation"
+#~ msgstr "Navigation der Nachrichten-Kategorien"
+
+#~ msgid "Message categories list"
+#~ msgstr "Liste der Nachrichten-Kategorien"
+
+#~ msgctxt "message_category"
+#~ msgid "Most Used"
+#~ msgstr "Meistverwendet"
+
+#~ msgid "&larr; Back to Message categories"
+#~ msgstr "&larr; Zurück zu den Nachrichten-Kategorien"
+
+#~ msgid "Message category added."
+#~ msgstr "Nachrichten-Kategorie hinzugefügt."
+
+#~ msgid "Message category deleted."
+#~ msgstr "Nachrichten-Kategorie gelöscht."
+
+#~ msgid "Message category updated."
+#~ msgstr "Nachrichten-Kategorie aktualisiert."
+
+#~ msgid "Message category not added."
+#~ msgstr "Kategorie wurde nicht hinzugefügt."
+
+#~ msgid "Message category not updated."
+#~ msgstr "Nachrichtenkategorie wurde nicht aktualisiert."
+
+#~ msgid "Message categories deleted."
+#~ msgstr "Nachrichten-Kategorie gelöscht."
