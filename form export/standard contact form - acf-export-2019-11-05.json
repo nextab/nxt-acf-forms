@@ -1,7 +1,7 @@
 [
     {
         "key": "group_5dbf4cf9c8e5e",
-        "title": "Standard Contact Form",
+        "title": "Contact Form Fields",
         "fields": [
             {
                 "key": "field_5dbf4d05a3c13",
@@ -55,7 +55,7 @@
                     "id": ""
                 },
                 "default_value": "",
-                "placeholder": "",
+                "placeholder": "E-Mail",
                 "prepend": "",
                 "append": ""
             },
@@ -79,10 +79,105 @@
                 "maxlength": 100
             },
             {
+                "key": "field_5ff445ec974f7",
+                "label": "Street Name + Number",
+                "name": "cf_street",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Example Street 123",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ff44620974f8",
+                "label": "Area Code",
+                "name": "cf_area_code",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": 7735,
+                "prepend": "",
+                "append": "",
+                "maxlength": 10
+            },
+            {
+                "key": "field_5ff44678974f9",
+                "label": "City",
+                "name": "cf_city",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "70",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Cape Town",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ff44691974fa",
+                "label": "P.O. Box \/ Address description",
+                "name": "cf_address",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ff446c8974fb",
+                "label": "Company Registration",
+                "name": "cf_company_registration",
+                "type": "file",
+                "instructions": "Please upload a document that proves the registration of your company (e.g. trade certificate).",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "id",
+                "library": "all",
+                "min_size": "",
+                "max_size": 4,
+                "mime_types": "pdf,jpg,jpeg,png,webp,tiff"
+            },
+            {
                 "key": "field_5dbf4d58a3c15",
                 "label": "What are you interested in?",
-                "name": "cf_interest",
-                "type": "taxonomy",
+                "name": "cf_category",
+                "type": "text",
                 "instructions": "",
                 "required": 1,
                 "conditional_logic": 0,
@@ -91,14 +186,37 @@
                     "class": "cf_interest",
                     "id": ""
                 },
-                "taxonomy": "message_category",
-                "field_type": "select",
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ff458bd774db",
+                "label": "Message \/ Application Status",
+                "name": "nxt_application_status",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "received": "received",
+                    "processing": "processing",
+                    "processed": "processed"
+                },
+                "default_value": false,
                 "allow_null": 0,
-                "add_term": 0,
-                "save_terms": 1,
-                "load_terms": 0,
-                "return_format": "object",
-                "multiple": 0
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
             },
             {
                 "key": "field_5dbf4e1ca3c16",
