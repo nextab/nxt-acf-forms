@@ -401,8 +401,7 @@ function nxt_send_message_email( $post_id ) {
 	$subject 	= $new_post_title;
 	$headers = array('Content-Type: text/html; charset=UTF-8');
 	// echo '<pre>'; print_r($attachments); echo '</pre>';
-	wp_mail( 'kunden@nextab.de', $subject, $message, $headers, $attachments);
-	wp_mail( 'online@chinaherb.co.za', $subject, $message, $headers, $attachments);
+	wp_mail( 'yourmail@domain.com', $subject, $message, $headers, $attachments);
 	
 	// $message2 = '<p>Guten Tag ' . get_field("nxt_contact_first_name", $post_id) . ',</p>
 	// <p>diese E-Mail wurde automatisch versendet. Vielen Dank für Ihre Nachricht.</p>';
